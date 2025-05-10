@@ -20,7 +20,9 @@
   "homepage": "https://github.com/Copycat-Studio/3d-website#readme",
   "description": "",
   "dependencies": {
-    "three": "^0.176.0",
+    "three": "^0.176.0"
+  },
+  "devDependencies": {
     "vite": "^6.3.5"
   }
 }
