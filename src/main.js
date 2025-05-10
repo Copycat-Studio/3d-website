@@ -16,7 +16,7 @@ const controls = new OrbitControls(camera, renderer.domElement);
 controls.enableDamping = true;
 
 const loader = new GLTFLoader();
-loader.load('scene.glb', function (gltf) {
+loader.load('/scene.glb', function (gltf) {
   scene.add(gltf.scene);
   gltf.scene.position.set(0, 0, 0);
 }, undefined, function (error) {
