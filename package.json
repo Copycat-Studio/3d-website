@@ -2,11 +2,11 @@
   "name": "3d-website",
   "version": "1.0.0",
   "main": "main.js",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
+"scripts": {
+  "dev": "vite",
+  "build": "vite build",
+  "preview": "vite preview"
+},
   "repository": {
     "type": "git",
     "url": "https://github.com/Copycat-Studio/3d-website.git"
@@ -20,9 +20,9 @@
   "homepage": "https://github.com/Copycat-Studio/3d-website#readme",
   "description": "",
   "dependencies": {
-    "three": "^0.176.0"
+  "three": "^0.160.0"
   },
   "devDependencies": {
-    "vite": "^6.3.5"
+  "vite": "^5.0.0"
   }
 }
